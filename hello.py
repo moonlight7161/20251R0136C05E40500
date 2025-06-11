@@ -33,3 +33,11 @@ def factorial(n):
     return n * factorial(n - 1)
 
 print(factorial(5))  # 120
+
+def linear_search(arr, target):
+    for i, val in enumerate(arr):
+        if val == target:
+            return i
+    return -1
+
+print(linear_search([3, 5, 2, 7], 5))  # 1
