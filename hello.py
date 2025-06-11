@@ -53,3 +53,11 @@ def subtract(a, b):
 print("Sum:", add(3, 2))
 print("Diff:", subtract(5, 3))
 
+
+student = {
+    "name": "Alice",
+    "grade": "A",
+    "major": "CS"
+}
+
+print(student["name"])  # Alice
