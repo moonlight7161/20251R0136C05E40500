@@ -26,3 +26,10 @@ def is_palindrome(word):
     return word == word[::-1]
 
 print(is_palindrome("radar"))  # True
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))  # 120
