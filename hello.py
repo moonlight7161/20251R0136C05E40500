@@ -41,3 +41,15 @@ def linear_search(arr, target):
     return -1
 
 print(linear_search([3, 5, 2, 7], 5))  # 1
+
+
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+print("Sum:", add(3, 2))
+print("Diff:", subtract(5, 3))
+
